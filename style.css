@@ -3,7 +3,7 @@
     position:relative;
 	z-index: 1;
 	/*↑z-indexの値をh1のz-indexの値よりも小さくして背景に回す*/
-	height: 100%;/*スライダー全体の縦幅を画面の高さいっぱい（100vh）にする*/
+	height: 80%;/*スライダー全体の縦幅を画面の高さいっぱい（100vh）にする*/
 }
 /*--背景画像設定
 ---------------------------------------------*/
@@ -153,6 +153,13 @@ footer p {
 @media(max-width: 768px){
     body{
         background-color: #fff3e9;
+    }
+
+ .slider {
+    position:relative;
+	z-index: 1;
+	/*↑z-indexの値をh1のz-indexの値よりも小さくして背景に回す*/
+	height: 80%;/*スライダー全体の縦幅を画面の高さいっぱい（100vh）にする*/
     }
 
 
