@@ -1,98 +1,126 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-    <meta charset="utf-8">
-    <title>KoraOnsen</title>
-    <meta name="description" content="b">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>静游亭 - 日常を忘れ、静寂に遊ぶ、大人の隠れ家</title>
+    <meta name="description" content="豊かな緑と清流に抱かれた温泉旅館「静游亭」。上質な空間で、心安らぐひとときをお過ごしください。">
 
-    <!--css-->
     <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Philosopher" rel="stylesheet">
-    <link href='http://fonts.googleapis.com/css?family=Joti+One' rel='stylesheet' type='text/css'>
-    
-    <link rel="stylesheet" type="text/css" href="https://coco-factory.jp/ugokuweb/wp-content/themes/ugokuweb/data/reset.css">
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
-    <link rel="stylesheet" type="text/css" href="https://coco-factory.jp/ugokuweb/wp-content/themes/ugokuweb/data/6-1-1/css/6-1-1.css">
-    
-    <link href="style.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;700&family=Shippori+Mincho:wght@400;600&display=swap" rel="stylesheet">
 </head>
-
-<header class="page-header wrapper">
-    <div class="slider">
-    <img class="slider-item slider-item01" src="https://github.com/Korachan/onsen-ver1/blob/main/header.png?raw=true" alt="Background Image">
-    <img class="slider-item slider-item02" src="https://github.com/Korachan/onsen-ver1/blob/main/header2.png?raw=true" alt="Background Image">
-    <img class="slider-item slider-item03" src="https://github.com/Korachan/onsen-ver1/blob/main/header3.png?raw=true" alt="Background Image">
-</div>
-
-<div class="openbtn1"><span></span><span></span><span></span></div>
-<nav id="g-nav">
-<div id="g-nav-list"><!--ナビの数が増えた場合縦スクロールするためのdiv※不要なら削除-->
-<ul>
-<li><a href="index.html">Home</a></li>
-<li><a href="agr.html">予約</a></li>
-<li><a href="agr.html">お部屋</a></li>  
-<li><a href="agr.html">お食事</a></li>
-<li><a href="agr.html">温泉</a></li>  
-<li><a href="agr.html">お問い合わせ</a></li> 
-</ul>
-</div>
-</nav>
-</header>
-
 <body>
+    <header class="header">
+        <a href="index.html" class="header-logo">静游亭</a>
+        <nav class="header-nav">
+            <ul>
+                <li><a href="concept.html">静游亭について</a></li>
+                <li><a href="room.html">お部屋・温泉</a></li>
+                <li><a href="cuisine.html">お食事</a></li>
+                <li><a href="guide.html">ご利用案内</a></li>
+                <li><a href="gallery.html">ギャラリー</a></li>
+                <li><a href="#" class="button-primary">ご予約</a></li>
+            </ul>
+        </nav>
+        <button class="openbtn"><span></span><span></span><span></span></button>
+    </header>
 
+    <main>
+        <section id="hero" class="hero">
+            <div class="hero-slider">
+                <div class="slide-item"><img src="https://images.pexels.com/photos/209594/pexels-photo-209594.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="静かな森の中に佇む旅館の外観"></div>
+                <div class="slide-item"><img src="https://images.pexels.com/photos/16819445/pexels-photo-16819445/free-photo-of-light-road-travel-building.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="露天風呂から望む雄大な自然"></div>
+                <div class="slide-item"><img src="https://images.pexels.com/photos/271649/pexels-photo-271649.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="落ち着いた雰囲気の和室"></div>
+            </div>
+            <div class="hero-title-wrapper">
+                <h1 class="hero-title">時の流れを、<br>忘れる。</h1>
+            </div>
+        </section>
 
-<div class="text">
-<h2>「翠嵐、君想ふ」
-</h2>
-<p>
-    翠嵐温泉は、自然の美しさと豊かな歴史が息づく癒しの地です。
-    その名の通り、翠の緑と風の音が心地よく響き渡る温泉郷。
-    古来より多くの人々が訪れ、その神秘的な魅力に触れてきました。</p>
-</div>
+        <section id="concept" class="concept section-padding">
+            <div class="container fade-in">
+                <h2 class="section-title-jp">静寂に、遊ぶ。</h2>
+                <p class="section-text">
+                    都会の喧騒から遠く離れた、緑深き渓谷のほとり。<br>
+                    聞こえるのは、風の音、鳥の声、そして清流のせせらぎ。<br>
+                    「静游亭」は、何もしない贅沢を味わうための大人の隠れ家です。<br>
+                    ただ、ゆったりと流れる時間に身を委ね、心と体を解き放つ。<br>
+                    そんな、至福のひとときをお約束します。
+                </p>
+                <a href="concept.html" class="button-secondary">静游亭について</a>
+            </div>
+        </section>
 
+        <section id="features" class="features section-padding">
+            <div class="container">
+                <h2 class="section-title-en fade-in">OUR FEATURES</h2>
+                <div class="features-grid">
+                    <div class="feature-card fade-in">
+                        <a href="room.html" class="feature-card-link">
+                            <div class="feature-card-image"><img src="https://images.pexels.com/photos/271649/pexels-photo-271649.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="お部屋"></div>
+                            <h3>お部屋</h3>
+                            <p>全室が渓谷に面した、プライベートな空間。窓の外に広がる自然と一体になるような時間をお過ごしください。</p>
+                        </a>
+                    </div>
+                    <div class="feature-card fade-in">
+                        <a href="room.html#onsen" class="feature-card-link">
+                           <div class="feature-card-image"><img src="https://images.pexels.com/photos/16819445/pexels-photo-16819445/free-photo-of-light-road-travel-building.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="温泉"></div>
+                            <h3>温泉</h3>
+                            <p>美肌の湯として知られる源泉かけ流しの湯。四季折々の自然を眺めながら、心ゆくまでご堪能いただけます。</p>
+                        </a>
+                    </div>
+                    <div class="feature-card fade-in">
+                        <a href="cuisine.html" class="feature-card-link">
+                            <div class="feature-card-image"><img src="https://images.pexels.com/photos/1058277/pexels-photo-1058277.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="お食事"></div>
+                            <h3>お食事</h3>
+                            <p>この土地ならではの旬の恵みを、一皿一皿に。料理人の技と心が織りなす創作会席をご賞味ください。</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-<div class="home-container">
- <a herf="agr.html"><img class="cont" src="https://github.com/Korachan/onsen-ver1/blob/main/content.png?raw=true" alt=""></a>
- <a herf="agr.html"><img class="cont" src="https://github.com/Korachan/onsen-ver1/blob/main/content2.png?raw=true" alt=""></a>
- <a herf="agr.html"><img class="cont" src="https://github.com/Korachan/onsen-ver1/blob/main/content3.png?raw=true" alt=""></a>
- <a herf="agr.html"><img class="cont" src="https://github.com/Korachan/onsen-ver1/blob/main/content4.png?raw=true" alt=""></a>
- <a herf="agr.html"><img class="cont" src="https://github.com/Korachan/onsen-ver1/blob/main/content5.png?raw=true" alt=""></a>
- <a herf="agr.html"><img class="cont" src="https://github.com/Korachan/onsen-ver1/blob/main/content6.png?raw=true" alt=""></a>
-</div>
+        <section id="info" class="info section-padding">
+            <div class="container fade-in">
+                <h2 class="section-title-en">INFORMATION</h2>
+                <dl class="info-list">
+                    <dt>2025.06.14</dt>
+                    <dd><a href="#">公式サイトをリニューアルいたしました。</a></dd>
+                    <dt>2025.06.01</dt>
+                    <dd><a href="#">夏限定「涼風会席プラン」のご予約受付を開始しました。</a></dd>
+                    <dt>2025.05.10</dt>
+                    <dd><a href="#">館内施設メンテナンスのお知らせ（7/1-7/3）</a></dd>
+                </dl>
+            </div>
+        </section>
 
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <a href="index.html" class="footer-logo">静游亭</a>
+            <ul class="footer-nav">
+                <li><a href="concept.html">静游亭について</a></li>
+                <li><a href="room.html">お部屋・温泉</a></li>
+                <li><a href="cuisine.html">お食事</a></li>
+                <li><a href="guide.html">ご利用案内</a></li>
+                <li><a href="gallery.html">ギャラリー</a></li>
+            </ul>
+             <p class="address">
+                〒000-0000 静岡県山紫郡清流町渓谷1234<br>
+                TEL: 055-123-4567
+            </p>
+            <p class="copyright">&copy; 2025 SEIYU-TEI. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="script.js"></script>
 </body>
-
-<footer>
-    <img src="https://github.com/Korachan/onsen-ver1/blob/main/footer.png?raw=true" alt="">
-    <div class="wrapper"> 
-    <p>&copy; 2024 kora</p>
-
-    </div>
-</footer>
-
-<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="  crossorigin="anonymous"></script>
-<script src="https://coco-factory.jp/ugokuweb/wp-content/themes/ugokuweb/data/5-1-25/js/5-1-25.js"></script>
-
-<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-<script src="https://coco-factory.jp/ugokuweb/wp-content/themes/ugokuweb/data/6-1-1/js/6-1-1.js"></script>
-
-<script>
-    $(".openbtn1").click(function () {//ボタンがクリックされたら
-  $(this).toggleClass('active');//ボタン自身に activeクラスを付与し
-    $("#g-nav").toggleClass('panelactive');//ナビゲーションにpanelactiveクラスを付与
-    $("#header,#container").toggleClass('mainblur');//ぼかしたいエリアにmainblurクラスを付与
-});
-
-$("#g-nav a").click(function () {//ナビゲーションのリンクがクリックされたら
-    $(".openbtn1").removeClass('active');//ボタンの activeクラスを除去し
-    $("#g-nav").removeClass('panelactive');//ナビゲーションのpanelactiveクラスを除去し
-    $("#header,#container").removeClass('mainblur');//ぼかしているエリアのmainblurクラスを除去
-});
-</script>
-
-
-
 </html>
